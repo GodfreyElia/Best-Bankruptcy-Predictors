@@ -16,4 +16,4 @@ Predicting corporate bankruptcy is both a science and an art which requires maki
 
 ### 3. Methodology
 
-To tackle this questions, 
+To tackle the question of which variables do a great job at determining bankruptcy, we will use two main tools: variable visualisation, and emperical tests.
