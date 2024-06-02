@@ -1,5 +1,7 @@
 ## Title: Which Variables Are Great at Determining Bankruptcy
 
+----
+
 <br clear="both">
 
 <div align="center">
