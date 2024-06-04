@@ -60,8 +60,6 @@ The above charts show the output that I obtained after inquiring of the models w
 
     Based on this methodology, we can rank the top 5 predictors (in that order) as: Age of company, Current Ratio, EBIT-Assets Ratio, Sales-Assets Ratio, and the Operating margin.
 
-----
-
 ### 3. Take Away
 
 In this project, I have showed how we can use machine learning to understand which variables affect the likelihood of survival of companies. We have discovered that the age of a company has a large bearing on its chance of survival, corroborating with Fig 1 where we noticed bankrupt companies on average tend to be much younger than their non-bankrupt counterparts. This would be ideal in informing economic policy. Furthermore, other ratios such as the current ratio (measure of liquidity), Ebit- Assets ratio (measure of profitability) are equally very important. Thus it is in the best interest of management to critically manage these ratios.
