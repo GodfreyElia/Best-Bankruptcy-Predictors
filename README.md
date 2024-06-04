@@ -18,6 +18,22 @@ Predicting corporate bankruptcy is both a science and an art which requires maki
 
 To tackle the question of which variables do a great job at determining bankruptcy, we will use two main tools: variable visualisation, and emperical tests.
 
-  #### 3.1. Visualisation.
+    #### 3.1. Visualisation.
+
+<br clear="both">
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Best-Bankruptcy-Predictors/blob/main/Stats/Variable-comps.png"  />
+</div>
+<br>
+
+Fig. 1: Comparison of variables between bankrupt and non-bankrupt firms.
+
+Fig 1 above shows stack differences between bankrupt and non-bankrupt firms. Except for the EBIT:Assets ratio (X3), the differences between bankrupt and live companies is well pronounced in the other variables. However, the most interesting question is whether or not the means are in line with our expectations. For this we get mixed results. For instance, we would expect the operating margin of live companies to be higher than that of companies that went bust, which is the case here. However, we would also expect the current ratio to be high for live companies than dead companies, which unfortunately is not the case.
+
+In conclusion, we can decipher that learning machines only care about if there are differnces within a variable, places more emphasis on the size of the difference than the nature. Based on this and solely on the bar chart, I would argue that operating margin (AM), assets growth rate (AG), Current ratio (Current) and Assets to Sales Ratio (SAR) are the best predictors.
 
 
+    #### 3.2. Emperical tests
+
+However and perhaps a more realible way of determining which variables are good predictors of bankruptcy is by running emperical tests and quering the models on the importance of features.
