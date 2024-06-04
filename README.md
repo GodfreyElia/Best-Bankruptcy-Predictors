@@ -18,7 +18,7 @@ Predicting corporate bankruptcy is both a science and an art which requires maki
 
 To tackle the question of which variables do a great job at determining bankruptcy, we will use two main tools: variable visualisation, and emperical tests.
 
-    #### 3.1. Visualisation.
+     3.1. Visualisation.
 
 <br clear="both">
 
@@ -34,6 +34,26 @@ Fig 1 above shows stack differences between bankrupt and non-bankrupt firms. Exc
 In conclusion, we can decipher that learning machines only care about if there are differnces within a variable, places more emphasis on the size of the difference than the nature. Based on this and solely on the bar chart, I would argue that operating margin (AM), assets growth rate (AG), Current ratio (Current) and Assets to Sales Ratio (SAR) are the best predictors.
 
 
-    #### 3.2. Emperical tests
+     3.2. Emperical tests
 
-However and perhaps a more realible way of determining which variables are good predictors of bankruptcy is by running emperical tests and quering the models on the importance of features.
+However and perhaps a more realible way of determining which variables are good predictors of bankruptcy is through running emperical tests and quering the models themselves on the importance of features.
+
+<br clear="both">
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Best-Bankruptcy-Predictors/blob/main/Stats/Relative%20Influence.png"  />
+</div>
+<br>
+
+Fig 2a. Relative Importance of Variables in Models
+
+<br clear="both">
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Best-Bankruptcy-Predictors/blob/main/Stats/Average_importance.png"  />
+</div>
+<br>
+
+Fig 2b. Average Influence of Variables in Models.
+
+
